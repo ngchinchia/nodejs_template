@@ -1,0 +1,25 @@
+## Create a cat
+POST  http://localhost:3000/api/cats
+Content-Type: application/json
+{
+   "name": "Whiskers",
+   "breed": "Persian",
+   "age": 3
+}
+
+### Get all cats
+GET http://localhost:3000/api/cats
+
+### Get one cat
+GET http://localhost:3000/api/cats/65ab12345678901234567890
+
+### Update a cat
+PUT http://localhost:3000/api/cats/65ab12345678901234567890
+Content-Type: application/json
+
+{
+   "age": 4
+}
+
+### Delete a cat
+DELETE  http://localhost:3000/api/cats/65ab12345678901234567890
