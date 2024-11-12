@@ -55,7 +55,6 @@ src/
 1. Clone the repository
 ```bash
 git clone https://github.com/ngchinchia/nodejs-template.git
-cd nodejs-template
 ```
 
 2. Install dependencies
